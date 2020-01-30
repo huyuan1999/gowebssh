@@ -2,6 +2,8 @@
 
 部分核心代码来源于 https://github.com/dejavuzhou/felix
 
+注意: 建议使用 Chrome 运行 webssh
+
 ```go
 // 在 main.go 中配置连接信息, 然后在浏览器输入 http://127.0.0.1:8088/ 开始使用 websocket
 sshObj := sshChannel.SSHClientConfig{
